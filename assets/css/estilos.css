@@ -14,7 +14,7 @@ footer {
 }
 header {
     color: #ffffff;
-    background-color: #145da0;
+    background-color: #03a827;
 }
 button {
     padding: 0.75rem 1rem;
@@ -23,4 +23,47 @@ button {
     border: 0;
     border-radius: 0.4rem;
     cursor: pointer;
+}
+
+.cabecera-sitio,
+.menu,
+.grilla-tarjetas {
+display: flex;
+gap: 1rem;
+}
+.cabecera-sitio {
+align-items: center;
+justify-content: space-between;
+}
+.menu {
+padding: 0;
+list-style: none;
+}
+.marca,
+.menu a,
+.pie-sitio a {
+color: inherit;
+}
+main {
+max-width: 70rem;
+margin-inline: auto;
+}
+.grilla-tarjetas {
+flex-wrap: wrap;
+}
+.tarjeta {
+flex: 1 1 18rem;
+padding: 1rem;
+background: #bad6b9;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.salto-contenido {
+position: absolute;
+left: -10000px;
+}
+.salto-contenido:focus {
+position: static;
 }
